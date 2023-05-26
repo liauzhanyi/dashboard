@@ -1,5 +1,7 @@
+from ssl import ALERT_DESCRIPTION_RECORD_OVERFLOW
 from tkinter import *
 from tkinter import messagebox
+from tkinter.filedialog import askopenfilename
 import tkcalendar
 # from PIL import ImageTk, Image
 
@@ -78,3 +80,26 @@ msgButton.grid(row=4, column=0)
 
 root.mainloop()
 # root.quit() to exit
+
+#####################
+## Other Functions ##
+#####################
+
+## Create new window
+Toplevel()
+
+## Open file dialog box
+from tkinter import filedialog
+filedialog.askopenfilename()
+
+## Slider
+## can be used to resize window
+Scale()
+
+## Checkbox
+Checkbutton()
+
+## Drop down menu
+OptionMenu()
+
+## Building database
